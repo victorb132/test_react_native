@@ -1,4 +1,4 @@
-# React Native To-Do App
+# React Native Lista de Tarefas
 
 Este é um aplicativo de lista de tarefas simples desenvolvido com **React Native**, utilizando o **Context API** e **AsyncStorage** para gerenciar e persistir os dados das tarefas. O objetivo é fornecer um exemplo funcional de como criar um aplicativo com estados globais e armazenamento local.
 
