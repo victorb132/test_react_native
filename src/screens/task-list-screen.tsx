@@ -40,11 +40,13 @@ export default function TaskListScreen() {
       />
       <Button title="Adicionar Tarefa" onPress={navigateToAddTask} />
       <View style={styles.spacing} />
-      <Button
-        title="Limpar Concluídas"
-        type="secundary"
-        onPress={removeAllTasksCompleted}
-      />
+      {tasks.some(task => task.isCompleted) && (
+        <Button
+          title="Limpar Concluídas"
+          type="secundary"
+          onPress={removeAllTasksCompleted}
+        />
+      )}
     </View>
   );
 }
