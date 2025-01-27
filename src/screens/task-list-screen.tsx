@@ -52,14 +52,14 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 16,
-    backgroundColor: '#e6f0ff',
+    backgroundColor: '#000',
   },
   taskItem: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     padding: 12,
     marginVertical: 8,
-    backgroundColor: '#f0f0f0',
+    backgroundColor: '#000',
     borderRadius: 8,
   },
   taskText: {

@@ -42,9 +42,26 @@ Este é um aplicativo de lista de tarefas simples desenvolvido com **React Nativ
 
    ```
 
-3. Rode o projeto no emulador desejado:
+3. Instale as bibliotecas:
 
    ```bash
-   npm run android
-   npm run ios
+   yarn install
+
+   ou
+
+   npm install
    ```
+
+3.1 Para o iOs instale os pods:
+
+    ```bash
+    cd ios
+    pod install
+    ````
+
+4.  Rode o projeto no emulador desejado:
+
+    ```bash
+    npm run android
+    npm run ios
+    ```
