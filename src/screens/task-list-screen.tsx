@@ -29,6 +29,7 @@ export default function TaskListScreen() {
       <FlatList
         data={tasks}
         keyExtractor={item => item.id}
+        showsVerticalScrollIndicator={false}
         renderItem={({item}: {item: Task}) => (
           <Card
             task={item}
@@ -52,7 +53,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 16,
-    backgroundColor: '#000',
+    backgroundColor: '#fff',
   },
   taskItem: {
     flexDirection: 'row',

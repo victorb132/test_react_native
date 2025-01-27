@@ -37,12 +37,12 @@ const styles = StyleSheet.create({
     paddingHorizontal: 12,
     paddingVertical: 24,
     marginVertical: 8,
-    backgroundColor: '#80b3ff',
+    backgroundColor: '#000',
     borderRadius: 8,
     alignItems: 'center',
   },
   taskCompleted: {
-    backgroundColor: '#b3d9ff',
+    backgroundColor: '#3e403f',
   },
   taskText: {
     fontSize: 16,
@@ -53,7 +53,6 @@ const styles = StyleSheet.create({
     textDecorationLine: 'line-through',
   },
   toggleText: {
-    color: '#007BFF',
     marginRight: 16,
   },
   deleteText: {

@@ -22,14 +22,15 @@ const styles = StyleSheet.create({
     width: 24,
     height: 24,
     borderWidth: 2,
-    borderColor: '#007BFF',
+    borderColor: '#000',
     borderRadius: 4,
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#fff',
   },
   checked: {
-    backgroundColor: '#007BFF',
+    backgroundColor: '#3e403f',
+    borderWidth: 0,
   },
   checkmark: {
     color: '#fff',

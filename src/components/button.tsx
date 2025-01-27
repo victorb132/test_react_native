@@ -27,7 +27,7 @@ export default function Button({
 const styles = StyleSheet.create({
   buttonPrimary: {
     padding: 16,
-    backgroundColor: '#0066ff',
+    backgroundColor: '#000',
     borderRadius: 8,
     alignItems: 'center',
   },
