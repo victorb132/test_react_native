@@ -29,6 +29,7 @@ Este é um aplicativo de lista de tarefas simples desenvolvido com **React Nativ
    - **Android Studio** (para dispositivos/emuladores Android)
    - **Xcode** (para dispositivos/emuladores iOS em macOS)
    - **React Native CLI**:
+
      ```bash
      npm install -g react-native
      ```
@@ -43,7 +44,7 @@ Este é um aplicativo de lista de tarefas simples desenvolvido com **React Nativ
 
 3. Rode o projeto no emulador desejado:
 
-```bash
-npm run android
-npm run ios
-```
+   ```bash
+   npm run android
+   npm run ios
+   ```
