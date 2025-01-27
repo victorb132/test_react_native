@@ -57,6 +57,7 @@ Este é um aplicativo de lista de tarefas simples desenvolvido com **React Nativ
     ```bash
     cd ios
     pod install
+
     ```
 
 4.  Rode o projeto no emulador desejado:
