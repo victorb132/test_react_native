@@ -21,12 +21,12 @@ export default function AddTaskScreen() {
 
   const {addTask} = taskContext;
 
-  const handleAddTask = () => {
+  function handleAddTask() {
     if (taskName.trim()) {
       addTask({id: uuidv4(), name: taskName.trim(), isCompleted: false});
       goBack();
     }
-  };
+  }
 
   return (
     <View style={styles.container}>
